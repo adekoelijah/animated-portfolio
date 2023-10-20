@@ -52,9 +52,9 @@ const Services = () => {
             <motion.div className="box" whileHover={{background:"lightgray", color:"black"}}>
                 <h2>UI/UX DESIGNER</h2>
                 <p>
-                UX designers don&apost just work for tech businesses. 
+                UX designers don't post just work for tech businesses. 
                 UX designers are integral in helping businesses of all 
-                kinds create products and services that are tailored to their users&apos s needs, 
+                kinds create products and services that are tailored to their user's needs, 
                 making them an essential part of the process when 
                 it comes to creating successful products and services.
                 </p>
