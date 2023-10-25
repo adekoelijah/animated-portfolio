@@ -12,13 +12,13 @@ const items =[
     },
     {
         id: 2,
-        title:"Mobile App Design with React",
+        title:"Mobile App",
         img: "https://images.pexels.com/photos/192273/pexels-photo-192273.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-        desc: "React Native is a framework for building native mobile apps using JavaScript and the React. js library. React. js is the JavaScript library that powers the user interface of a React Native app, handling the rendering and updating of components.",
+        desc: "React Native is a framework for building native mobile apps using JavaScript and the React. js library.",
     },
     {
         id: 3,
-        title:"React Ecommerce Design",
+        title:"Ecommerce Design",
         img: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
         desc: "React can be used to build dynamic, responsive eCommerce web applications that provide a seamless user experience",
     },
@@ -36,9 +36,9 @@ const items =[
     },
     {
         id: 6,
-        title:"Twiter made with React Js",
+        title:"Twiter App Reactjs",
         img: "https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&w=800",
-        desc: "Twitter-Clone is a full-stack web application built with ReactJS, NodeJS, and MongoDB, aimed at replicating the core features of Twitter, such as tweeting, following, searching, and more",
+        desc: "Twitter-Clone is a full-stack web application built with ReactJS, NodeJS, and MongoDB and others",
     },
     {
         id: 4,
@@ -48,7 +48,7 @@ const items =[
     },
     {
         id: 7,
-        title:"Facebook Made with React",
+        title:"Facebook like App",
         img: "https://images.pexels.com/photos/1590086/pexels-photo-1590086.jpeg?auto=compress&cs=tinysrgb&w=800",
         desc: "Facebook created React and uses it for its apps, even introducing a new version called React Fiber. Instagram: Heavily relies on ReactJS",
     },

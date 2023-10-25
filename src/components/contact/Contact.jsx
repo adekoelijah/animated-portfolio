@@ -1,23 +1,23 @@
-import { useRef, useState } from "react"
+// import { useRef, useState } from "react"
 import "./contact.scss"
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 // import emailjs from '@emailjs/browser';
 
 
-const variants ={
-    initial:{
-        y:500,
-        opacity:0,
-    },
-    animate:{
-        y:0,
-        opacity:1,
-        transition:{
-            duration:0.5,
-            staggerChildren:0.1,
-        }
-    }
-}
+// const variants ={
+//     initial:{
+//         y:500,
+//         opacity:0,
+//     },
+//     animate:{
+//         y:0,
+//         opacity:1,
+//         transition:{
+//             duration:0.5,
+//             staggerChildren:0.1,
+//         }
+//     }
+// }
 
 const Contact = () => {
    /*  const formRef =useRef();
@@ -46,24 +46,24 @@ const Contact = () => {
     //       );
     //   };
   return (
-    <motion.div className="contact" variants={variants} initial ="initial" whileInView="animate">
-        <motion.div className="textContainer" variants={variants}>
-            <motion.h1 variants={variants}>Let's Work Together</motion.h1>
-            <motion.div className="item" variants={variants}>
+    <div className="contact">
+        <div className="textContainer" >
+            <h1>Let's Work Together</h1>
+            <div className="item">
                 <h2>Mail</h2>
                 <span>adekoelijah@gmail.com</span>
-            </motion.div>
-            <motion.div className="item">
+            </div>
+            <div className="item">
                 <h2>Address</h2>
                 <span>29,ParkRoad E/B West Lagos</span>
-            </motion.div>
+            </div>
             <div className="item">
                 <h2>Phone</h2>
                 <span>07088294012</span>
             </div>
-        </motion.div>
+        </div>
         <div className="formContainer">
-            <motion.form
+            <form
             /* ref={formRef}
             onSubmit={sendEmail} */
             action="https://formspree.io/f/xoqoygdw" method="POST">
@@ -72,11 +72,9 @@ const Contact = () => {
                 <input type="email" required placeholder="Email" name="email" />
                 <textarea rows={8} placeholder="Message" name="message"/>
                 <button>Submit</button>
-                {/* {error && "Error"}
-                {success && "Success"} */}
-            </motion.form>
+            </form>
         </div>
-    </motion.div>
+    </div>
   )
 }
 
